@@ -1,4 +1,4 @@
-package Xadrez;
+package tabuleiroJogo;
 
 public class ExcecaoTabuleiro extends RuntimeException {
 	private static final long serialVersionUID = 1L;
