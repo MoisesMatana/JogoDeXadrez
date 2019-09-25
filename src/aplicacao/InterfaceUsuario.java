@@ -19,6 +19,12 @@ public class InterfaceUsuario {
 		System.out.println("   a b c d e f g h");
 	}
 
+	public static void clearScreen() {  
+	    System.out.println("\033[H\033[2J");  
+	    System.out.flush(); 
+	    System.out.println();
+	}  
+
 	public static PosicaoXadrez lerPosicaoXadrez(Scanner sc) {
 		try {
 			String s = sc.nextLine();
